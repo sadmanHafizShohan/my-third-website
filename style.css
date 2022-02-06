@@ -12,10 +12,17 @@
     width: 100%;
 }
 .head{
-    background-image: url(personal-website/header-bg.png);
+    background-image: url(images/header-bg.png);
 }
 .my-work{
-    background-image: url(personal-website/latest-work-bg.png);
+    background-image: url(./images/latest-work-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.Biography{
+    background-image: url(./images/biography-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 section{
     height: 500px;
