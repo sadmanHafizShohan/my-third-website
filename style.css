@@ -1,8 +1,3 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 body{
     margin: 0;
@@ -27,7 +22,7 @@ body{
     to { width: 100% }
   }
   @keyframes blink-caret {
-    from, to { border-color: transparent }
+    from, to { border-color: transparent}
     50% { border-color: red }
   }
 .half-width{
@@ -63,22 +58,40 @@ section{
     height: 500px;
 }
 
+
 .button{
+    padding: 10px 20px;
+    border-radius: 5px;
+	display: inline-block;
+	text-decoration: none; 
+	transition:all 0.7s ease-out 0s;
+	background-size:200%;
+	background-image: linear-gradient(to left, yellow 50%, #ff0202 50%); 
+	color: #ffffff;
+}
+
+.button:hover { 
+	background-position: -100% 100%;
+    color:black;
+	}
+
+/* .button{
     text-decoration: none;
+    display: inline block;
     background-color: #ff0044;
     padding: 10px 20px;
     border-radius: 5px;
-    color: white;
+    color: #ffffff;
     width: 300px;
     height: 100px;
     box-shadow: inset 0 0 0 0 transparent;
-    transition:all 0.7s ease-out 0s;
+    transition:all 0.2s ease-out 0s;
     cursor: pointer;
 }
 .button:hover{
     box-shadow: inset 300px 0 0 0 #f9e506;
     color: black;
-}
+} */
 .work-width{
     float: right;
     clear: left;
