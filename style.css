@@ -9,7 +9,7 @@ body{
     color: #fff;
     font-family: monospace;
     overflow: hidden; /* Ensures the content is not revealed until the animation */
-    border-right: .em solid orange; /* The typwriter cursor */
+    border-right: .0em solid orange; /* The typwriter cursor */
     white-space: nowrap; /* Keeps the content on a single line */
     margin: 0 auto; /* Gives that scrolling effect as the typing happens */
     letter-spacing: .15em; /* Adjust as needed */
@@ -61,18 +61,18 @@ section{
 
 .button{
     text-decoration: none;
-    background-color: rgb(255, 0, 68);
+    background-color: #ff0044;
     padding: 10px 20px;
     border-radius: 5px;
     color: white;
     width: 300px;
     height: 100px;
-    box-shadow: inset 0 0 0 0 #f9e506;
-    transition:ease-out 0.7s;
+    box-shadow: inset 0 0 0 0 transparent;
+    transition:all 0.7s ease-out 0s;
+    cursor: pointer;
 }
 .button:hover{
     box-shadow: inset 300px 0 0 0 #f9e506;
-    cursor: pointer;
     color: black;
 }
 .work-width{
